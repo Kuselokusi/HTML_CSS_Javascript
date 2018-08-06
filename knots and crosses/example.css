@@ -1,0 +1,17 @@
+.jumbotron h1 {
+
+  color: "gray";
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+
+}
+
+table,td {
+	font-size: 60px;
+	font-weight: bold;
+	table-layout: fixed;
+	text-align: center;
+	background: '';
+	border: 5px solid black;
+}
