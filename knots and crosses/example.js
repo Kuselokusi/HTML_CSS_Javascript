@@ -116,18 +116,18 @@ document.querySelector("#t00").addEventListener("dblclick", function() {
 
 });
 
-document.querySelector("#t01").addEventListener("click", function() {
+$("#t01").click(function() { //this is JQuery Equivalent of First method
 
-    document.querySelector("#t01").textContent = "x";
+    $(this).text("x");
     checkWinner();
-
+    console.log("JQuery works!!!")
 });
 
-document.querySelector("#t01").addEventListener("dblclick", function() {
+$("#t01").dblclick(function() { //this is JQuery Equivalent of First method
 
-    document.querySelector("#t01").textContent = "0";
+    $(this).text("0");
     checkWinner();
-
+    console.log("JQuery works!!!")
 });
 
 document.querySelector("#t02").addEventListener("click", function() {
